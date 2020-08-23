@@ -1,0 +1,11 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Work_Experience extends Model
+{
+    protected $table="work_experience";
+    protected $fillable= ['start_date', 'ending_date', 'activities', 'business'];
+}
